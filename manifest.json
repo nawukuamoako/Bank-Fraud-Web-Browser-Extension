@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Bank Fraud Detection",
+    "version": "1.0",
+    "description": "A browser extension that refreshes the browser automatically.",
+    
+    "content_scripts":[
+    {
+     "matches":["<all_urls>"],
+     "js":["main.js"]
+    }
+  ]
+    
+}
